@@ -70,20 +70,7 @@
         <!-- 卡片 -->
        <!-- 学习组件 -->
        <emplzj-xuexi v-for="xuexi in data" :key="xuexi.id" :xz="xuexi"/>
-            <!-- <el-card :body-style="{ padding: '0px' }">
-              <img
-                src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
-                class="image"
-              />
-              <div style="padding: 14px">
-                <span>好吃的汉堡</span>
-                <div class="bottom clearfix">
-                  <time class="time">{{ currentDate }}</time>
-                  <el-button type="text" class="button">操作按钮</el-button>
-                </div>
-              </div>
-            </el-card> -->
-
+         
       </van-tab>
 
       <van-tab title="问职场">
